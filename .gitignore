@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datasets (demasiado grandes)
+datasets/
+CatFLW dataset/
+
+# Resultados de entrenamiento (imágenes generadas)
+results/*.png
+
+# Mantener solo el log CSV
+!results/training_log.csv
+
+# Checkpoints (muy pesados - todos excluidos por tamaño de GitHub)
+checkpoints/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
